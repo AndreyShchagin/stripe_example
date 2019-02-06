@@ -1,4 +1,4 @@
-package com.synertrade.fi.exceptions;
+package com.ecommerce.fi.exceptions;
 
 /**
  * Custom FI module exception

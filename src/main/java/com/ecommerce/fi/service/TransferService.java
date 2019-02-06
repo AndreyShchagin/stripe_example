@@ -1,10 +1,10 @@
-package com.synertrade.fi.service;
+package com.ecommerce.fi.service;
 
+import com.ecommerce.fi.persistence.dao.StripeSupplierDao;
+import com.ecommerce.fi.persistence.repositories.SupplierRepositoryRep;
 import com.stripe.exception.*;
 import com.stripe.model.Transfer;
 import com.stripe.net.RequestOptions;
-import com.synertrade.fi.persistence.dao.StripeSupplierDao;
-import com.synertrade.fi.persistence.repositories.SupplierRepositoryRep;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

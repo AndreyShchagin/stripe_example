@@ -1,8 +1,8 @@
-package com.synertrade.fi.service;
+package com.ecommerce.fi.service;
 
-import com.synertrade.fi.persistence.dao.StripeSupplierDao;
-import com.synertrade.fi.exceptions.GenericFiException;
-import com.synertrade.fi.persistence.repositories.SupplierRepositoryRep;
+import com.ecommerce.fi.persistence.dao.StripeSupplierDao;
+import com.ecommerce.fi.persistence.repositories.SupplierRepositoryRep;
+import com.ecommerce.fi.exceptions.GenericFiException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

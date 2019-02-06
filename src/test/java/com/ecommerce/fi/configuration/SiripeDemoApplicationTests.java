@@ -1,4 +1,4 @@
-package com.synertrade.fi.configuration;
+package com.ecommerce.fi.configuration;
 
 import org.junit.Test;
 import org.springframework.boot.test.context.SpringBootTest;

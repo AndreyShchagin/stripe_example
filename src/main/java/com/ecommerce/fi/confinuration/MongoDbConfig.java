@@ -1,4 +1,4 @@
-package com.synertrade.fi.confinuration;
+package com.ecommerce.fi.confinuration;
 
 import com.mongodb.Mongo;
 import com.mongodb.MongoClient;
@@ -33,7 +33,7 @@ public class MongoDbConfig extends AbstractMongoConfiguration {
 
     @Override
     protected String getMappingBasePackage() {
-        return "com.synertrade.fi.persistence";
+        return "com.ecommerce.fi.persistence";
     }
 
     @Override

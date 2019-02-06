@@ -1,10 +1,8 @@
-package com.synertrade.fi.persistence.repositories;
+package com.ecommerce.fi.persistence.repositories;
 
-import com.synertrade.fi.persistence.dao.StripeSupplierDao;
+import com.ecommerce.fi.persistence.dao.StripeSupplierDao;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.data.mongodb.repository.Query;
-
-import java.util.List;
 
 /**
  * Supplier Mongo Repo

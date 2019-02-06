@@ -1,6 +1,6 @@
-package com.synertrade.fi.persistence.repositories;
+package com.ecommerce.fi.persistence.repositories;
 
-import com.synertrade.fi.persistence.dao.InstanceDao;
+import com.ecommerce.fi.persistence.dao.InstanceDao;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.data.mongodb.repository.Query;
 

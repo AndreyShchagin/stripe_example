@@ -1,4 +1,4 @@
-package com.synertrade.fi.confinuration;
+package com.ecommerce.fi.confinuration;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -21,7 +21,7 @@ public class SwaggerConfig {
     public Docket api() {
         return new Docket(DocumentationType.SWAGGER_2)
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.synertrade.fi.rest"))
+                .apis(RequestHandlerSelectors.basePackage("com.ecommerce.fi.rest"))
                 .paths(PathSelectors.any())
                 .build();
     }

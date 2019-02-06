@@ -1,9 +1,9 @@
-package com.synertrade.fi.rest;
+package com.ecommerce.fi.rest;
 
 import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
-import com.synertrade.fi.service.OnBoardingService;
-import com.synertrade.fi.exceptions.GenericFiException;
+import com.ecommerce.fi.service.OnBoardingService;
+import com.ecommerce.fi.exceptions.GenericFiException;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;

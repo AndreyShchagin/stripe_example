@@ -1,4 +1,4 @@
-package com.synertrade.fi.persistence.dao;
+package com.ecommerce.fi.persistence.dao;
 
 import lombok.*;
 import org.springframework.data.annotation.Id;

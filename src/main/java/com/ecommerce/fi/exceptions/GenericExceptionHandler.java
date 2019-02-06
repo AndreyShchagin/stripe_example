@@ -1,4 +1,4 @@
-package com.synertrade.fi.exceptions;
+package com.ecommerce.fi.exceptions;
 
 import com.stripe.exception.StripeException;
 import org.springframework.http.HttpHeaders;

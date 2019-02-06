@@ -1,8 +1,8 @@
-package com.synertrade.fi.rest;
+package com.ecommerce.fi.rest;
 
 import com.stripe.exception.*;
 import com.stripe.model.Transfer;
-import com.synertrade.fi.service.TransferService;
+import com.ecommerce.fi.service.TransferService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.slf4j.Logger;
